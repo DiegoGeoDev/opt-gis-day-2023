@@ -1,0 +1,226 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz-1",
+      "tab": "1",
+      "isDisabled": false,
+      "isQuestionComplete": false,
+      "isMapComplete": false,
+      "nextQuiz": "quiz-2",
+      "question": "O que é uma projeção cartográfica?",
+      "value": null,
+      "answer": "c",
+      "answers": [
+        {
+          "id": "answer-1",
+          "value": "a",
+          "text": "Um equipamento utilizado para projetar mapas"
+        },
+        {
+          "id": "answer-2",
+          "value": "b",
+          "text": "Um mapa que foi impresso em uma gráfica"
+        },
+        {
+          "id": "answer-3",
+          "value": "c",
+          "text": "Uma forma de representar a superfície curva da Terra em um plano"
+        },
+        {
+          "id": "answer-4",
+          "value": "d",
+          "text": "Uma tipo de análise de dados geográficos"
+        }
+      ],
+      "tip": "Sou uma torre muito grande com uma estrutura metálica icônica, localizada no país mais visitado do mundo. Quem sou eu?",
+      "poi": [2.2944821422763653, 48.858406498783765],
+      "dialog": {
+        "title": "Parabéns você encontrou a Torre Eiffel!",
+        "text": [
+          "A Torre Eiffel é um símbolo da cidade de Paris, ela é não apenas uma obra-prima da engenharia, mas também uma estrutura suscetível a mudanças intrigantes que podem ser relacionadas ao mundo das projeções cartográficas. Assim como nas projeções cartográficas encontramos distorções ao representar a superfície curva da Terra em um plano, a Torre Eiffel também sofre variações de altura devido a um fenômeno conhecido como dilatação térmica.",
+          "Ao longo do dia e das estações do ano, a temperatura em Paris varia consideravelmente. Quando o calor do verão se faz presente, a estrutura metálica da Torre Eiffel se expande devido à dilatação térmica. Isso significa que ela pode ficar alguns centímetros mais alta em um dia quente do que em um dia frio. Da mesma forma, quando as temperaturas caem durante o inverno, a torre contrai-se e sua altura diminui ligeiramente.",
+          "Essa peculiaridade nos faz lembrar das projeções cartográficas, que enfrentam o desafio de representar uma superfície tridimensional em um plano bidimensional. Assim como as projeções cartográficas podem distorcer as formas e tamanhos dos continentes, a altura da Torre Eiffel também está sujeita a variações, embora em uma escala muito menor.",
+          "Essas curiosidades nos lembram da complexidade e das nuances presentes tanto na representação do nosso mundo quanto na engenharia das estruturas que o habitam. A Torre Eiffel, com sua imponência e flexibilidade perante as mudanças de temperatura, serve como um lembrete fascinante das muitas maneiras pelas quais a ciência e a engenharia se entrelaçam com o mundo natural ao nosso redor."
+        ]
+      }
+    },
+    {
+      "id": "quiz-2",
+      "tab": "2",
+      "isDisabled": true,
+      "isQuestionComplete": false,
+      "isMapComplete": false,
+      "nextQuiz": "quiz-3",
+      "question": "Qual é o principal objetivo do geoprocessamento?",
+      "value": null,
+      "answer": "b",
+      "answers": [
+        {
+          "id": "answer-1",
+          "value": "a",
+          "text": "Associar dados a uma localização específica na Terra"
+        },
+        {
+          "id": "answer-2",
+          "value": "b",
+          "text": "Analisar dados geográficos para auxiliar em tomadas de decisão"
+        },
+        {
+          "id": "answer-3",
+          "value": "c",
+          "text": "Identificar os diferentes tipos de mapas que existem"
+        },
+        {
+          "id": "answer-4",
+          "value": "d",
+          "text": "Detectar quando alguém entra ou sai de um local"
+        }
+      ],
+      "tip": "Meu apelido é 'A Grande Maçã', e sou uma cidade famosa no país das águias. Quem sou eu?",
+      "poi": [-74.00724000946896, 40.71044735747849],
+      "dialog": {
+        "title": "Parabéns você encontrou Nova Iorque!",
+        "text": [
+          "O mundo do geoprocessamento oferece uma visão fascinante de como a análise de dados pode desempenhar um papel crucial na tomada de decisões e na distribuição equitativa de recursos e renda entre diferentes regiões. Uma analogia interessante para entender esse conceito pode ser encontrada na história por trás do apelido de Nova York como a 'Big Apple.'",
+          "Nos Estados Unidos, muitas vezes considerados como uma 'árvore' que produz a riqueza nacional, os estados individuais podem ser comparados às 'maçãs' dessa árvore, cada um com sua própria contribuição para a economia geral. No entanto, nem todos os estados recebem uma parte igual dos recursos e renda gerados pela nação, o que resulta em uma distribuição desigual de recursos e oportunidades.",
+          "Isso é onde a análise de dados e o geoprocessamento entram em jogo. Por meio de ferramentas avançadas de coleta, análise e visualização de dados, os decisores políticos podem identificar áreas que estão recebendo uma parcela desproporcional de recursos ou benefícios. Da mesma forma que uma árvore distribui seus frutos de maneira desigual, a economia de um país pode distribuir sua renda de forma desigual entre os estados.",
+          "Nova York, como um dos estados mais ricos e influentes dos Estados Unidos, é frequentemente apelidado de 'Big Apple' por causa da grande fatia da renda nacional que recebe em comparação com outros estados. Essa designação não apenas reflete a dimensão de sua economia, mas também destaca a importância de considerar a equidade na distribuição de recursos e oportunidades.",
+          "O geoprocessamento, com suas poderosas capacidades de análise espacial e representação de dados geográficos, ajuda os formuladores de políticas a identificar discrepâncias e desigualdades, permitindo-lhes tomar decisões informadas para melhorar a distribuição de recursos e a qualidade de vida em todo o país. Assim como a 'Big Apple' representa um estado que recebe uma grande parte da renda nacional, o geoprocessamento representa uma ferramenta essencial para alcançar uma distribuição mais equitativa da riqueza e do bem-estar em todas as regiões."
+        ]
+      }
+    },
+    {
+      "id": "quiz-3",
+      "tab": "3",
+      "isDisabled": true,
+      "isQuestionComplete": false,
+      "isMapComplete": false,
+      "nextQuiz": "quiz-4",
+      "question": "Qual é a função principal de um GPS?",
+      "value": null,
+      "answer": "c",
+      "answers": [
+        {
+          "id": "answer-1",
+          "value": "a",
+          "text": "Detectar movimentos do solo"
+        },
+        {
+          "id": "answer-2",
+          "value": "b",
+          "text": "Medir a quantidade de precipitação em um determinado local"
+        },
+        {
+          "id": "answer-3",
+          "value": "c",
+          "text": "Determinar a localização precisa na Terra"
+        },
+        {
+          "id": "answer-4",
+          "value": "d",
+          "text": "Medir a temperatura ou as variações de temperatura"
+        }
+      ],
+      "tip": "Sou uma antiga estrutura monumental, localizada em uma região árida. Tenho sido estudado por séculos devido à minha enigmática construção. Quem sou eu?",
+      "poi": [31.13235703405902, 29.9772769204177],
+      "dialog": {
+        "title": "Parabéns você encontrou as Pirâmides de Gizé!",
+        "text": [
+          "A construção das Pirâmides de Gizé é um dos maiores feitos arquitetônicos da história, e sua relação com as estrelas é fascinante. A maneira como os antigos egípcios as construíram e alinharam é um testemunho notável de sua engenhosidade e compreensão da astronomia. Hoje, podemos ver uma conexão intrigante entre essa abordagem ancestral de orientação e a tecnologia moderna de posicionamento, como o Sistema de Posicionamento Global (GPS).",
+          "Ao longo dos séculos, os egípcios aprimoraram sua capacidade de construir estruturas colossais. As pirâmides foram cuidadosamente alinhadas com os pontos cardeais (norte, sul, leste e oeste) com notável precisão. Uma das teorias é que os antigos egípcios usaram a observação das estrelas para determinar a direção norte-sul com base na estrela polar, que fica próxima ao Polo Norte Celestial. A estrela polar aparece fixa no céu noturno, e sua altura acima do horizonte varia de acordo com a latitude. Isso permitiu aos construtores das pirâmides estabelecerem uma referência confiável para o norte, orientando assim suas construções.",
+          "Essa prática de observação estelar para orientação, embora rudimentar em comparação ao GPS moderno, era incrivelmente eficaz. A conexão com a tecnologia atual reside no fato de que o GPS utiliza uma constelação de satélites que orbitam a Terra para determinar a localização precisa de um receptor GPS na superfície da Terra.",
+          "Assim como os antigos egípcios usavam as estrelas como guia para construir as pirâmides, o GPS utiliza satélites em órbita como pontos de referência no espaço para calcular a posição de um dispositivo na Terra. O GPS moderno fornece coordenadas geográficas precisas em tempo real, permitindo que as pessoas se localizem e naveguem com precisão em qualquer lugar do mundo.",
+          "Embora as técnicas tenham evoluído ao longo dos milênios, a necessidade de se orientar no espaço permanece uma constante. A construção das Pirâmides de Gizé e a tecnologia GPS são testemunhos da inovação humana ao longo da história, mostrando como a compreensão do cosmos e a busca por localização sempre foram preocupações fundamentais da humanidade, independentemente da época em que vivemos."
+        ]
+      }
+    },
+    {
+      "id": "quiz-4",
+      "tab": "4",
+      "isDisabled": true,
+      "isQuestionComplete": false,
+      "isMapComplete": false,
+      "nextQuiz": "quiz-5",
+      "question": "O que é uma coordenada geográfica?",
+      "value": null,
+      "answer": "c",
+      "answers": [
+        {
+          "id": "answer-1",
+          "value": "a",
+          "text": "Um tipo de mapa preto e branco"
+        },
+        {
+          "id": "answer-2",
+          "value": "b",
+          "text": "Uma região na memória utilizada para armazenar dados"
+        },
+        {
+          "id": "answer-3",
+          "value": "c",
+          "text": "Um número que representa uma posição na Terra"
+        },
+        {
+          "id": "answer-4",
+          "value": "d",
+          "text": "Uma transmissão em tempo real"
+        }
+      ],
+      "tip": "Sou uma cidade britânica onde você pode encontrar o ponto onde a longitude começa. Quem sou eu?",
+      "poi": [-0.0014327217284563806, 51.4782020178096],
+      "dialog": {
+        "title": "Parabéns você encontrou Greenwich!",
+        "text": [
+          "As coordenadas geográficas desempenham um papel fundamental em nossa capacidade de nos localizar e navegar pelo mundo. Elas são como um sistema de endereçamento global que nos permite determinar pontos precisos na superfície da Terra, proporcionando um meio confiável de comunicação de posições geográficas.",
+          "As coordenadas geográficas consistem em duas partes principais: latitude e longitude. A latitude mede a distância ao norte ou ao sul do equador, variando de 0 graus no equador até 90 graus nos polos norte e sul. A longitude, por outro lado, mede a distância a leste ou oeste do Meridiano de Greenwich, que é o ponto de referência para a contagem das longitudes. Ela varia de -180 graus a +180 graus, cobrindo todo o globo terrestre.",
+          "O Meridiano de Greenwich, que atravessa a cidade de Greenwich, na Inglaterra, é de extrema importância para o sistema de coordenadas geográficas. Foi estabelecido como o ponto de partida, o chamado 'Marco Zero' das longitudes, durante a Conferência Internacional do Meridiano Primeiro, realizada em 1884. O Meridiano de Greenwich foi escolhido como um ponto de referência global devido à sua localização estratégica e à histórica tradição marítima da Grã-Bretanha.",
+          "A partir do Meridiano de Greenwich, as longitudes são medidas tanto a leste quanto a oeste. Isso significa que, quando você tem as coordenadas geográficas de um local, você sabe sua latitude e sua distância a leste ou oeste do Meridiano de Greenwich. Isso é essencial para a navegação, viagens, logística e muitos outros aspectos da vida moderna.",
+          "As coordenadas geográficas, juntamente com tecnologias como GPS (Sistema de Posicionamento Global), permitem que nos localizemos com precisão em qualquer lugar do mundo. Hoje, com um simples dispositivo de GPS ou um aplicativo de mapa em nossos smartphones, podemos determinar nossa posição com uma precisão incrível. Tudo isso é possível graças à importância do Meridiano de Greenwich como ponto de referência global para a contagem de longitudes. É uma prova da maneira como a cooperação internacional e a padronização são essenciais para a nossa capacidade de nos localizar e navegar com facilidade em um mundo vasto e diversificado."
+        ]
+      }
+    },
+    {
+      "id": "quiz-5",
+      "tab": "5",
+      "isDisabled": true,
+      "isQuestionComplete": false,
+      "isMapComplete": false,
+      "nextQuiz": null,
+      "question": "O que é a geoestatística?",
+      "value": null,
+      "answer": "c",
+      "answers": [
+        {
+          "id": "answer-1",
+          "value": "a",
+          "text": "Um método estatístico global"
+        },
+        {
+          "id": "answer-2",
+          "value": "b",
+          "text": "Uma modelagem de dados de formas geométricas"
+        },
+        {
+          "id": "answer-3",
+          "value": "c",
+          "text": "Um método estatístico para análise de dados espaciais"
+        },
+        {
+          "id": "answer-4",
+          "value": "d",
+          "text": "Um equipamento que pode ser utilizado em drones"
+        }
+      ],
+      "tip": "Sou um arquipélago vulcânico localizado no Oceano Pacífico, conhecido por minha biodiversidade única e por inspirar a teoria da evolução de Charles Darwin. Quem sou eu?",
+      "poi": [-90.60897614317732, -0.46169433732631204],
+      "dialog": {
+        "title": "Parabéns você encontrou as Ilhas Galápagos!",
+        "text": [
+          "Assim como a geoestatística analisa a variabilidade espacial de dados, as Ilhas Galápagos são famosas por suas notáveis variações geográficas, tornando-as um laboratório natural incrível para estudar a evolução da vida. Charles Darwin, o renomado naturalista, visitou essas ilhas em 1835 e ficou intrigado com as diferenças sutis nas espécies de animais e plantas de uma ilha para outra.",
+          "Uma curiosidade fascinante que liga esses dois mundos é o caso das tartarugas gigantes de Galápagos. Ao coletar e analisar dados sobre o tamanho e a forma das conchas das tartarugas em diferentes ilhas, os cientistas aplicaram princípios de geoestatística para identificar padrões de variação geográfica. Surpreendentemente, eles descobriram que as conchas das tartarugas variavam de acordo com o ambiente e a disponibilidade de alimentos em cada ilha. Tartarugas de ilhas com vegetação baixa tinham conchas curvas para alcançar plantas rasteiras, enquanto as de ilhas com vegetação alta tinham conchas mais planas para alcançar folhas nas árvores.",
+          "Essa incrível adaptação das tartarugas gigantes às diferentes condições ambientais é um exemplo notável de como a geoestatística e a observação das variações geográficas nas Ilhas Galápagos têm contribuído para nossa compreensão da evolução e diversidade da vida na Terra."
+        ]
+      }
+    }
+  ]
+}
