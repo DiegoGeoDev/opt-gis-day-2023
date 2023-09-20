@@ -14,6 +14,7 @@ export function Header() {
 
   function handleResetProgress() {
     resetProgress();
+    window.location.reload();
   }
 
   return (
