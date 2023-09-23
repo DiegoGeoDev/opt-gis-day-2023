@@ -1,4 +1,6 @@
+import { Help } from "./help";
 import { ModeToggle } from "./mode-toggle";
+
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 
@@ -37,6 +39,8 @@ export function Header() {
         <Separator orientation="vertical" className="h-6" />
 
         <ModeToggle />
+
+        <Help />
       </div>
     </header>
   );

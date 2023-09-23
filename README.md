@@ -55,3 +55,22 @@ https://ui.shadcn.com/themes
 - yarn add zustand
 
 - https://leaflet-extras.github.io/leaflet-providers/preview/
+
+- https://github.com/CartoDB/basemap-styles
+  Service public info: https://carto.com/location-data-services/basemaps/ The structure of the URLs to call the service is the following: https://{s}.basemaps.cartocdn.com/{style}/{z}/{x}/{y}{scale}.png , where:
+
+{s}: one of the available subdomains, either [a,b,c,d]
+{z} : Zoom level. We support from 0 to 20 zoom levels in OSM tiling system.
+{x},{y}: Tile coordinates in OSM tiling system
+{scale}: OPTIONAL "@2x" for double resolution tiles
+{style}: Map style, possible value is one of:
+light_all,
+dark_all,
+light_nolabels,
+light_only_labels,
+dark_nolabels,
+dark_only_labels,
+rastertiles/voyager,
+rastertiles/voyager_nolabels,
+rastertiles/voyager_only_labels,
+rastertiles/voyager_labels_under

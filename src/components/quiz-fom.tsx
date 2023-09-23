@@ -35,7 +35,10 @@ export function QuizForm() {
 
   const { toast } = useToast();
 
-  const progress = quizzes.filter((quiz) => quiz.isMapComplete).length * 20;
+  const isMapCompleteLengh = quizzes.filter(
+    (quiz) => quiz.isMapComplete
+  ).length;
+  const progress = isMapCompleteLengh * 20;
 
   const handleIsComplete = (value: string, quiz: QuizType) => {
     const { id, answer } = quiz;
@@ -50,7 +53,8 @@ export function QuizForm() {
     }
 
     toast({
-      description: "Parabéns você acertou 🥳",
+      description:
+        "Parabéns você acertou 🥳. Agora encontre o local desta curiosidade no mapa.",
     });
 
     updateIsQuestionComplete(id);
@@ -58,14 +62,22 @@ export function QuizForm() {
 
   return (
     <aside className="w-80 flex flex-col gap-4">
+      <span className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+        {isMapCompleteLengh === 0
+          ? `💡 Finalize este desafio para liberar o próximo`
+          : isMapCompleteLengh === 5
+          ? `🏆 Você liberou todas as perguntas`
+          : `⭐ Você liberou a pergunta ${isMapCompleteLengh + 1}`}
+      </span>
+
       <Progress
         value={progress}
-        data-isComplete={progress === 100}
-        className="[&>div]:data-[isComplete=true]:bg-emerald-500"
+        data-is-complete={progress === 100}
+        className="[&>div]:data-[is-complete=true]:bg-emerald-500"
       />
 
       <Tabs defaultValue={quizzes[0].tab}>
-        <TabsList className="w-full flex justify-between mb-4">
+        <TabsList className="grid w-full grid-cols-5 mb-4 ">
           {quizzes.map((quiz) => (
             <TabsTrigger
               key={quiz.id}
@@ -144,12 +156,15 @@ export function QuizForm() {
                       <SheetTitle className="mt-4">
                         {quiz.dialog.title}
                       </SheetTitle>
-                      <SheetDescription className="grid gap-4 leading-relaxed">
-                        {quiz.dialog.text.map((txt, index) => (
-                          <span key={index}>{txt}</span>
-                        ))}
+                      <SheetDescription>
+                        Uma curiosidade sobre este local 👇
                       </SheetDescription>
                     </SheetHeader>
+                    <div className="mt-4 grid gap-4 leading-relaxed text-muted-foreground">
+                      {quiz.dialog.text.map((txt, index) => (
+                        <span key={index}>{txt}</span>
+                      ))}
+                    </div>
                   </SheetContent>
                 </Sheet>
               ) : (

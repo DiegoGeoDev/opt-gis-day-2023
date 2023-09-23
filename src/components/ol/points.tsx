@@ -6,7 +6,7 @@ import { MapBrowserEvent, Feature as OlFeature } from "ol";
 import { Point } from "ol/geom";
 import { Coordinate } from "ol/coordinate";
 
-import { pointStyle } from "./points-style";
+import { pointStyle, iconStyle } from "./points-style";
 
 import { useToast } from "../ui/use-toast";
 
@@ -52,7 +52,7 @@ export function Points({
 
     const vectorLayerObject = new OlVectorLayer({
       source: new OlVectorSoruce(),
-      style: pointStyle,
+      style: iconStyle, //pointStyle,
       zIndex,
       minZoom,
       maxZoom,
