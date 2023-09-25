@@ -6,7 +6,7 @@ import { MapBrowserEvent, Feature as OlFeature } from "ol";
 import { Point } from "ol/geom";
 import { Coordinate } from "ol/coordinate";
 
-import { pointStyle, iconStyle } from "./points-style";
+import { iconStyle } from "./points-style";
 
 import { useToast } from "../ui/use-toast";
 
