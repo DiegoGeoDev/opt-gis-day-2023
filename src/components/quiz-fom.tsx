@@ -66,8 +66,8 @@ export function QuizForm() {
         {isMapCompleteLengh === 0
           ? `💡 Finalize este desafio para liberar o próximo`
           : isMapCompleteLengh === 5
-          ? `🏆 Você liberou todas as perguntas`
-          : `⭐ Você liberou a pergunta ${isMapCompleteLengh + 1}`}
+          ? `🏆 Você liberou todos os desafios`
+          : `⭐ Você liberou o desafio ${isMapCompleteLengh + 1}`}
       </span>
 
       <Progress
@@ -142,7 +142,7 @@ export function QuizForm() {
                 {quiz.isQuestionComplete ? (
                   <span className="text-muted-foreground">{quiz.tip}</span>
                 ) : (
-                  <Skeleton className="w-full h-6 rounded-full mt-1" />
+                  <Skeleton className="w-full h-20 rounded-md mt-1" />
                 )}
               </div>
 
@@ -168,7 +168,7 @@ export function QuizForm() {
                   </SheetContent>
                 </Sheet>
               ) : (
-                <Skeleton className="w-full h-9 rounded-full mt-1" />
+                <Skeleton className="w-full h-9 rounded-md mt-1" />
               )}
             </div>
           </TabsContent>
