@@ -59,7 +59,7 @@ export function Help() {
               <div className="grid gap-3  ">
                 <Label>Pergunta</Label>
                 <span className="text-muted-foreground">
-                  Que dia é comemorado o dia do GIS?
+                  Que dia será comemorado o dia do GIS (2023)?
                 </span>
               </div>
               <div className="grid gap-4">
@@ -75,7 +75,7 @@ export function Help() {
                       <SelectValue placeholder="Selecione uma resposta" />
                     </SelectTrigger>
                     <SelectContent className="h-auto">
-                      <SelectItem value="15">16 de Novembro</SelectItem>
+                      <SelectItem value="15">15 de Novembro</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
